@@ -1,0 +1,19 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <fragment
+        android:id="@+id/news_title_fragment"
+        android:name="com.devilmcry.fragment.NewsTitleFragment"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="match_parent" />
+
+    <fragment
+        android:id="@+id/news_content_fragment"
+        android:name="com.devilmcry.fragment.NewsContentFragment"
+        android:layout_width="0dp"
+        android:layout_weight="2"
+        android:layout_height="match_parent" />
+</LinearLayout>
